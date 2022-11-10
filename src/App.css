@@ -1,0 +1,263 @@
+@import url('https://fonts.cdnfonts.com/css/din-pro-cond');
+
+.App{
+  font-family: 'DIN Pro Medium', sans-serif;
+  margin-top: 20px;
+  margin-left: 6%;
+}
+
+.appCards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.search{
+  display: flex;
+}
+
+.sort{
+  display: flex;
+  
+}
+
+#sort{
+  padding: 9px;
+  border-radius: 5px;
+}
+
+
+.sort form{
+  height: 30px;
+}
+
+.search div input{
+  width: 180px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding-left: 7px;
+}
+
+.search div span{
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-right: 10px;
+  margin-left: 30px;
+  margin-top: 8px;
+}
+
+.card{
+  width: 23rem;
+  margin: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.head{
+  position: relative;
+  height: 11rem;
+}
+
+.image{
+ width: 100%;
+ height: 9.5rem;
+}
+
+.layer {
+  background-color: rgba(78, 78, 77, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 9.5rem;
+}
+
+.desc{
+  margin: 10px;
+  display: flex;
+}
+
+.down button{
+  width: 50%;
+  padding: 5px;
+  border: 0.4px solid rgb(219, 214, 214);
+  height: 40px;
+}
+
+.btn1{
+  background-color: #F07A3A;
+  color: white;
+  font-family: 'DIN Pro Medium', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.btn2{
+  background-color: white;
+  color: #F07A3A;
+  font-family: 'DIN Pro Medium', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.headTextLeft{
+  color: white;
+  font-weight: 500;
+  font-size: 13x;
+}
+
+ .imageicon{
+  position:absolute;
+  top: 10px;
+  left: 10px;
+}
+ 
+.imagecount{
+  position:absolute;
+  top: 9px;
+  left: 33px;
+  font-weight: 600;
+}
+
+.videoplay{
+  position:absolute;
+  top: 11px;
+  left: 65px;
+}
+.videocount{
+  position:absolute;
+  top: 9px;
+  left: 86px;
+  font-weight: 600;
+}
+
+
+.headTextRight{
+  color: white;
+  font-weight: 600;
+
+}
+
+.headTextRight span{
+  position: absolute;
+  font-size: 12px;
+  right: 10px;
+  top:10px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.headTextRight i{
+  position: absolute;
+  font-size: 22px;
+  top: 15px;
+  right: 150px;  
+}
+
+.rating{
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  color: white;
+  font-weight: 600;
+}
+ 
+.collegelogo{
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.collegeName{
+  color: white;
+  position: absolute;
+  bottom: 35px;
+  left: 0;
+  font-size: medium;
+  width: 70%;
+  padding-left: 75px;
+  font-weight: 600;
+  padding-right: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  
+}
+
+.address{
+  color: gray;
+  font-size: 10px;
+  position: absolute;
+  bottom: 7px;
+  left: 68px;
+  text-transform: uppercase;
+}
+
+.address i{
+  margin-left: 10px;
+}
+.address span{
+  margin-left: 5px;
+}
+
+.descdiv1 .fees{
+  font-size: 16px;
+  color: #F07A3A;
+letter-spacing: 1px;
+margin-left: 2px;
+}
+
+.descdiv1 .feesText{ 
+  font-size: 9px;
+  color: gray; 
+  text-transform: uppercase;
+  
+}
+
+.descdiv2{
+  border-left: 1px solid lightgray;
+  height: 50px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.horizontalLine{
+  width: 100%;
+  border-top: 1px solid lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.desc2{
+  display: flex;
+  text-align: center;
+  color: rgb(156, 154, 154);
+  font-size: 12px;
+  margin: 10px 15px 10px 15px;
+  text-transform: uppercase;
+}
+
+.theWeek{
+  width: 150px;
+}
+
+.nirf{
+  width: 150px;
+}
+
+
+.desc3{
+  display: flex;
+  text-align: center;
+  color: gray;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 10px 40px 10px 40px; 
+  border-top: 5px solid #e5e2e2;
+  justify-content: space-between;
+  background-color: #F7F7F7;
+}
